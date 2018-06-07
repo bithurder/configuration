@@ -1,0 +1,4 @@
+bootstrap:
+	heartbeat: 30
+	heartbeanevent: 4
+	serviceport:  ${service.${moduleName}.${sourceName}.port}
